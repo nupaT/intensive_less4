@@ -1,5 +1,5 @@
 const board = document.querySelector("#board");
-const SQUARE_COUNT = 500;
+const SQUARE_COUNT = 600;
 
 for (let i = 0; i < SQUARE_COUNT; i++) {
   // Create 450 square element
@@ -20,7 +20,7 @@ for (let i = 0; i < SQUARE_COUNT; i++) {
 }
 
 function setColor(element) {
-  // generate random color for sqare
+  // generate random color for square
   let r = Math.floor(Math.random() * 256);
   let g = Math.floor(Math.random() * 256);
   let b = Math.floor(Math.random() * 256);
