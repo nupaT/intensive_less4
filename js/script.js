@@ -15,7 +15,7 @@ for (let i = 0; i < SQUARE_COUNT; i++) {
     removeColor(square);
   });
 
-  // add swaure element for board-element
+  // add sqaure element for board-element
   board.append(square);
 }
 
